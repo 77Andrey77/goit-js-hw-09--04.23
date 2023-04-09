@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-09--04.23",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/*.html --open chrome",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09--04.23/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Andrey77/goit-js-hw-09--04.23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/77Andrey77/goit-js-hw-09--04.23/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "homepage": "https://77andrey77.github.io/goit-js-hw-09--04.23/"
+}
