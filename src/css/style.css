@@ -1,0 +1,16 @@
+.conteynerBtn {
+  /* background-color:aquamarine; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  background-color: beige;
+  border-radius: 30px;
+}
