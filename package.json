@@ -18,6 +18,7 @@
     "url": "https://github.com/77Andrey77/goit-js-hw-09--04.23/issues"
   },
   "dependencies": {
+    "flatpickr": "^4.6.13",
     "gh-pages": "^5.0.0",
     "modern-normalize": "^1.1.0"
   },
